@@ -1,0 +1,118 @@
+/* media query */
+@media (max-width:1500px){
+        /* ------contact and fotter css responsive: ----- */
+
+        .copyright{
+            margin-top: 1rem;
+        }
+}
+@media (max-width:1024px){
+    .home .pic{
+        width: 50%;
+        height: 50%;
+    }
+    .home {
+        padding: 2rem 3% 5rem;
+        justify-content: center;
+        text-align: center;
+    }
+    .home-content h3{
+        margin-top: 5rem;
+    }
+    .contact-left p{
+        font-size: 2.3rem;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+
+    }
+}
+
+
+@media (max-width:991px){
+    html {
+        font-size: 55%;
+    }
+    .home .home-content{
+        max-width: 50rem;
+    }
+    .header{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 10rem 3%  2rem;
+    }
+
+
+}
+
+
+@media (max-width:768px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: #365486;
+        border-top: #0F1035;
+        display: none;
+    }
+    .navbar.active{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: #DCF2F1;
+    }
+    .navbar a.active{
+        color: #0F1035;
+    }
+    .navbar a::before{
+        display: none;
+    }
+    .home-content h3 {
+        font-size : 2.6rem
+    }
+    .home-content h1{
+        font-size: 5rem;
+    }
+    .home-content .social-media a{
+        margin: 2.5rem .75rem 3rem;
+    }
+
+}
+
+
+@media (max-width : 450px){
+    html{
+        font-size: 50%;
+    }
+    .home{
+        padding:  0 3% 5rem;
+    }
+}
+
+
+  /* about media queries starts*/
+  @media (max-width: 600px) {
+    .about .row .image {
+      margin-top: 2rem;
+    }
+    .about .row .image img {
+      margin: 0 auto;
+      width: 80%;
+    }
+    .about .row {
+      padding: 0.5rem;
+      margin-bottom: 7rem;
+    }
+    .about .row .content {
+      padding: 1rem;
+    }
+}
