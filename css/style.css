@@ -369,34 +369,38 @@ svg {
     color: #020133;
 }
 
-.tech-stack {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .tech-stack i {
-    font-size: 24px;
-    color: #007bff; /* You can change the color as per your preference */
-  }
-  
+
   .link a {
     display: inline-block;
     margin-right: 10px;
-    color: #007bff; /* You can change the color as per your preference */
+    color: #007bff; 
   }
   
-  .link a:hover {
-    text-decoration: none;
-  }
+
+.details h3{
+    margin: 10px 0 0 0;
+}
   
+
+
+
+  .link-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    height : 50px
+  }
+
+
 
 /* -----------------github css-------------- */
 
 
 #github h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
+    margin-top: 8rem;
 }
 
 #github .row {
