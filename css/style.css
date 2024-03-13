@@ -68,7 +68,6 @@ section {
     min-height: 100vh;
     padding: 1rem 7% 2rem;
 }
-
 .home {
     display: flex;
     align-items: center;
@@ -148,7 +147,6 @@ section {
     height: 100%;
     display: block;
 }
-
 
 /* --------------------about--------------------- */
 .about {
@@ -310,8 +308,6 @@ svg {
 #skillsAndTools .skills .s div:hover {
     transform: scale(1.1);
 }
-
-
 
 
 /* ---------------project------------------ */
