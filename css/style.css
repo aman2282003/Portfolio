@@ -300,6 +300,11 @@ svg {
     height: 110px;
     width: 150px;
 }
+.t > div> img{
+    height: 110px;
+    width: 150px;
+}
+
 
 #skillsAndTools .tools .t div:hover {
     transform: scale(1.1);
