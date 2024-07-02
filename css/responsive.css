@@ -8,8 +8,8 @@
 }
 @media (max-width:1024px){
     .home .pic{
-        width: 50%;
-        height: 50%;
+        width: 350px;
+        height: 400px;
     }
     .home {
         padding: 2rem 3% 5rem;
