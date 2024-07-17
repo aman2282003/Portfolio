@@ -91,7 +91,7 @@ section {
 }
 
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
 }
 
 .home-content .social-media a {
@@ -155,7 +155,7 @@ section {
 
 .about h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .about .row {
@@ -242,7 +242,7 @@ section {
 #skillsAndTools {
     background-color: #DCF2F1;
     text-align: center;
-    margin-top: -8rem;
+    margin-top: -5rem;
 }
 
 #skillsAndTools .skills {
@@ -262,6 +262,7 @@ section {
 #skillsAndTools h1 {
     font-size: 4rem;
     color: #7FC7D9;
+    
 }
 
 #skillsAndTools .skills .s {
@@ -529,10 +530,10 @@ form textarea {
 .copyright {
     width: 100%;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0;
     background-color: #365486;
     font-weight: 400;
-    margin-top: -6rem;
+    margin-top: -4rem;
 }
 
 .copyright p {
